@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>poem_generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Hand In My Pocket</h1>
+    <h3>by Alanis Morsette</h3>
+    <p id="myLyrics">I'm broke but I'm happy, I'm poor but I'm kind<br>
+    I'm short but I'm healthy, yeah<br>
+    I'm high but I'm grounded, I'm sane but I'm overwhelmed<br>
+    I'm lost but I'm hopeful, baby<br>
+    What it all comes down to<br>
+    Is that everything's gonna be fine, fine, fine<br>
+    'Cause I've got one hand in my pocket<br>
+    And the other one is giving a high five<br>
+    I feel drunk but I'm sober, I'm young and I'm underpaid<br>
+    I'm tired but I'm working, yeah<br>
+    I care but I'm restless, I'm here but I'm really gone<br>
+    I'm wrong and I'm sorry baby<br>
+    What it all comes down to<br>
+    Is that everything is going to be quite alright<br>
+    'Cause I've got one hand in my pocket<br>
+    And the other one is flicking a cigarette<br>
+    What it all comes down to<br>
+    Is that I haven't got it all figured out just yet<br>
+    'Cause I've got one hand in my pocket<br>
+    And the other one is giving a peace sign<br>
+    I'm free but I'm focused, I'm green but I'm wise<br>
+    I'm hard but I'm friendly, baby<br>
+    I'm sad but I'm laughing, I'm brave but I'm chicken shit<br>
+    I'm sick but I'm pretty baby<br>
+    And what it all boils down to<br>
+    Is that no one's really got it figured out just yet<br>
+    I've got one hand in my pocket<br>
+    And the other one is playing the piano<br>
+    And what it all comes down to, my friends, yeah<br>
+    Is that everything is just fine fine fine<br>
+    I've got one hand in my pocket<br>
+    And the other one is hailing a taxi cab<br></p>
+    <hr>
+    <form id = "customize">
+    <label>Line Number</label> <br>
+    <input id = "lineNum" name="line_number" type="number" min = "1" value ="9"></input> <br>
+    <input id = "myButton" type="submit" value= "Get Lyrics!"></input> <br>
+    </form>
+    <hr>
+    <div id = "output"></div>
+  </body>
+  <script src="script.js" type="module"></script>
+  <script src="parse.js" type="module"></script>
+  <script src="pair.js" type="module"></script>
+  <script src="random.js" type="module"></script>
+  <script src="line.js" type="module"></script>
+</html>

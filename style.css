@@ -1,0 +1,53 @@
+body {
+  background-color: gray;
+  text-align: center;
+}
+
+h1 {
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', cursive;
+}
+
+h3 {
+  color:whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', cursive;
+}
+
+p {
+  color:whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', cursive;
+  font-size: 16px;
+}
+
+hr {
+  color: whitesmoke;
+  border-top: 3px double whitesmoke;
+  border-bottom: 3px double whitesmoke;
+  overflow: visible;
+  text-align: center;
+}
+
+label {
+  color: whitesmoke;
+  font-weight:bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
+
+input {
+  width: 20pt;
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+}
+
+#myButton {
+  width: 60pt;
+  margin-top:10pt;
+}
+
+#output {
+  margin-top:20pt;
+  margin-bottom:20pt;
+  font-style:italic;
+  color: whitesmoke;
+  white-space: pre-wrap;
+}
